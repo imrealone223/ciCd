@@ -1,6 +1,6 @@
-# Unit-тесты для геометрических фигур
+# Unit-тесты и CI/CD для геометрических фигур
 
-Лабораторная работа №4 по написанию unit-тестов
+Лабораторная работа №5 по написанию unit-тестов
 
 ## Описание
 Проект содержит модули для вычисления площадей и периметров геометрических фигур с unit-тестами.
@@ -23,3 +23,5 @@ python -m unittest test_circle.py -v
 python -m unittest test_rectangle.py -v
 python -m unittest test_square.py -v
 python -m unittest test_triangle.py -v
+
+### Способ 4: Запуск тестов через GitHub Actions на двух runner'ах: ubuntu-latest и windows-latest
